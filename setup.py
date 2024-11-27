@@ -17,7 +17,7 @@ setup(
         'Topic :: Security',
     ],
     requires=[
-        "impacket @ git+https://github.com/fortra/impacket@db71504529008bdbdd900549f6e4293be2e32c88",
+        "git+https://github.com/fortra/impacket@db71504529008bdbdd900549f6e4293be2e32c88",
         "beautifulsoup4",
         "lxml",
         "pyasn1",
