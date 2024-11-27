@@ -16,8 +16,8 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Topic :: Security',
     ],
-    requires=[
-        "impacket",
+    install_requires=[
+        "impacket @ git+https://github.com/fortra/impacket@db71504529008bdbdd900549f6e4293be2e32c88#egg=impacket",
         "beautifulsoup4",
         "lxml",
         "pyasn1",
